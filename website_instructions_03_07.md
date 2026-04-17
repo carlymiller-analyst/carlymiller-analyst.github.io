@@ -60,11 +60,11 @@ Navigation links (in order):
 **Name:** Carly Miller
 
 **Hero display text (stacked lines):**
-Hi, I'm Carly — / I trace harms, / design safeguards, and / measure what's / actually working.
+Hi, I'm Carly — / I analyze harms, / design safeguards, and / measure what's / actually working.
 *(slate blue italic accent on "what's actually working")*
 
 **Hero sub-text (below display, larger white text):**
-My work focuses on creating policy solutions for high-stakes content moderation decisions. To do this, I help translate complex technical findings of what went wrong into policy standards and frameworks that measure new safeguard solutions. Most of my experience is with traditional social media platforms, and most recently, in developing methodologies for AI safety evaluations. Policy analysis has been cited by the New York Times Editorial Board. Published in the Journal of Online Trust and Safety, Lawfare, and Brookings. 
+I'm focused on policy solutions for high-stakes content moderation decisions. To do this, I translate complex technical findings of what went wrong into policy standards and frameworks. My background is with traditional social media platforms, and most recently, in developing methodologies for AI safety evaluations. My work has been cited by the New York Times Editorial Board and published in the Journal of Online Trust and Safety, Lawfare, and Brookings. 
 
 **Photo:** [ADD PHOTO FILENAME HERE — e.g. photo.jpg]
 > Place your photo file in the same folder as index.html
