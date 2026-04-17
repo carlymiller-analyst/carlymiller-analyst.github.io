@@ -106,6 +106,7 @@
       display: flex;
       flex-direction: column;
       justify-content: flex-end;
+      max-width: 1100px;
       width: 100%;
       margin: 0 auto;
     }
@@ -122,7 +123,7 @@
     /* Stacked display lines — Adam's signature move */
     .hero-display {
       font-family: var(--serif);
-      font-size: clamp(2.4rem, 7.2vw, 7.2rem);
+      font-size: clamp(1.8rem, 5.4vw, 5.4rem);
       line-height: 1.08;
       letter-spacing: -0.03em;
       margin-bottom: 0;
@@ -401,9 +402,10 @@
 
     .hero-bottom {
       display: flex;
-      gap: 60px;
+      gap: 48px;
       align-items: flex-start;
       margin-top: 32px;
+      max-width: 900px;
     }
 
     .hero-text-col {
@@ -413,16 +415,20 @@
 
     .hero-photo-col {
       flex-shrink: 0;
-      width: 300px;
+      width: 420px;
+      overflow: hidden;
+      border-radius: 4px;
     }
 
     .hero-photo-img {
       width: 100%;
-      height: 400px;
+      height: 460px;
       object-fit: cover;
-      object-position: center 15%;
+      object-position: center 40%;
       border-radius: 4px;
       display: block;
+      transform: scale(2);
+      transform-origin: center 35%;
     }
 
     @media (max-width: 760px) {
@@ -571,8 +577,8 @@
             I'm focused on building technical solutions for high-stakes content moderation decisions.
             To do this, I investigate where enforcement breaks down into policy standards and frameworks.
             My background is with traditional social media platforms, and most recently, in developing methodologies
-            for AI safety evaluations. My work has been cited by <em>The New York Times</em> Editorial Board
-            and published in <em>Journal of Online Trust and Safety</em>, Lawfare, and Brookings.
+            for AI safety evaluations. My work has been cited by <a href="https://www.nytimes.com/2020/09/27/opinion/social-media-trump-election.html" target="_blank" style="color:var(--spark);border-bottom:1px solid var(--spark);"><em>The New York Times</em> Editorial Board</a>
+            and published in <a href="https://tsjournal.org/index.php/jots/article/view/168/68" target="_blank" style="color:var(--spark);border-bottom:1px solid var(--spark);"><em>Journal of Online Trust and Safety</em></a>, <a href="https://www.lawfaremedia.org/article/facebook-its-time-put-rules-one-place" target="_blank" style="color:var(--spark);border-bottom:1px solid var(--spark);">Lawfare</a>, and <a href="https://www.brookings.edu/articles/can-congress-mandate-meaningful-transparency-for-tech-platforms/" target="_blank" style="color:var(--spark);border-bottom:1px solid var(--spark);">Brookings</a>.
           </p>
           <div class="hero-cta">
             <a href="#research" class="btn">View Research</a>
@@ -611,7 +617,7 @@
         <div class="pub-body">
           <p class="pub-title">"Burden of Proof: Lessons Learned from Regulators from the Oversight Board's Implementation Work"</p>
           <p class="pub-meta">Journal of Online Trust and Safety · February 2024</p>
-          <a href="#" class="pub-link">PDF ↗</a>
+          <a href="https://tsjournal.org/index.php/jots/article/view/168/68" target="_blank" class="pub-link">Read ↗</a>
         </div>
       </li>
       <li class="pub-item">
@@ -619,7 +625,7 @@
         <div class="pub-body">
           <p class="pub-title">"Memes, Magnets and Microchips: Narrative Dynamics Around COVID-19 Vaccines"</p>
           <p class="pub-meta">Virality Project · April 2022</p>
-          <a href="#" class="pub-link">PDF ↗</a>
+          <a href="https://purl.stanford.edu/mx395xj8490" target="_blank" class="pub-link">PDF ↗</a>
         </div>
       </li>
       <li class="pub-item">
@@ -627,6 +633,7 @@
         <div class="pub-body">
           <p class="pub-title">"Playing Both Sides: Russian State Media Coverage of the #BlackLivesMatter Movement"</p>
           <p class="pub-meta">The International Journal of Press/Politics · February 2022</p>
+          <a href="https://journals.sagepub.com/doi/10.1177/19401612221082052" target="_blank" class="pub-link">Read ↗</a>
         </div>
       </li>
       <li class="pub-item">
@@ -634,6 +641,7 @@
         <div class="pub-body">
           <p class="pub-title">"Can Congress Mandate Meaningful Transparency for Tech Platforms?"</p>
           <p class="pub-meta">TechStream · June 2021</p>
+          <a href="https://www.brookings.edu/articles/can-congress-mandate-meaningful-transparency-for-tech-platforms/" target="_blank" class="pub-link">Read ↗</a>
         </div>
       </li>
       <li class="pub-item">
@@ -641,6 +649,7 @@
         <div class="pub-body">
           <p class="pub-title">"Facebook, It's Time to Put the Rules in One Place"</p>
           <p class="pub-meta">Lawfare · March 2021</p>
+          <a href="https://www.lawfaremedia.org/article/facebook-its-time-put-rules-one-place" target="_blank" class="pub-link">Read ↗</a>
         </div>
       </li>
       <li class="pub-item">
@@ -648,6 +657,7 @@
         <div class="pub-body">
           <p class="pub-title">"The Long Fuse: Misinformation and the 2020 Election"</p>
           <p class="pub-meta">Election Integrity Partnership · Policy Chapter Lead · March 2021</p>
+          <a href="https://purl.stanford.edu/tr171zs0069" target="_blank" class="pub-link">PDF ↗</a>
         </div>
       </li>
       <li class="pub-item">
@@ -655,7 +665,7 @@
         <div class="pub-body">
           <p class="pub-title">"Telling China's Story: The Chinese Communist Party's Campaign to Shape Global Narratives"</p>
           <p class="pub-meta">Stanford Internet Observatory · July 2020</p>
-          <a href="#" class="pub-link">PDF ↗</a>
+          <a href="https://www.hoover.org/research/telling-chinas-story-chinese-communist-partys-campaign-shape-global-narratives" target="_blank" class="pub-link">Read ↗</a>
         </div>
       </li>
     </ul>
@@ -670,7 +680,7 @@
         <div class="pub-body">
           <p class="pub-title">"Staying Current: An Investigation into a Now-Suspended Facebook Network Promoting the Palestinian Democratic Reform Current"</p>
           <p class="pub-meta">February 2021</p>
-          <a href="#" class="pub-link">PDF ↗</a>
+          <a href="https://web.archive.org/web/20250911100616/https://cyber.fsi.stanford.edu/io/publication/staying-current-investigation-now-suspended-facebook-network-promoting-palestinian" target="_blank" class="pub-link">Read ↗</a>
         </div>
       </li>
       <li class="pub-item">
@@ -678,7 +688,7 @@
         <div class="pub-body">
           <p class="pub-title">"Hacked and Hoaxed: Tactics of an Iran-Linked Operation to Influence Black Lives Matter Narratives on Twitter"</p>
           <p class="pub-meta">October 2020</p>
-          <a href="#" class="pub-link">Link ↗</a>
+          <a href="https://web.archive.org/web/20250512124056/https://cyber.fsi.stanford.edu/io/news/twitter-takedown-iran-october-2020" target="_blank" class="pub-link">Read ↗</a>
         </div>
       </li>
       <li class="pub-item">
@@ -686,7 +696,7 @@
         <div class="pub-body">
           <p class="pub-title">"Sockpuppets Spin COVID Yarns: An Analysis of PRC-Attributed June 2020 Twitter Takedown"</p>
           <p class="pub-meta">June 2020</p>
-          <a href="#" class="pub-link">PDF ↗</a>
+          <a href="https://web.archive.org/web/20250523204421/https://cyber.fsi.stanford.edu/io/publication/june-2020-prc-takedown" target="_blank" class="pub-link">PDF ↗</a>
         </div>
       </li>
       <li class="pub-item">
@@ -694,7 +704,7 @@
         <div class="pub-body">
           <p class="pub-title">"Blame it on Iran, Qatar, and Turkey: An Analysis of a Twitter and Facebook Operation Linked to Egypt, the UAE, and Saudi Arabia"</p>
           <p class="pub-meta">April 2020</p>
-          <a href="#" class="pub-link">PDF ↗</a>
+          <a href="https://web.archive.org/web/20250908124025/https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/20200402_blame_it_on_iran_qatar_and_turkey_v2_0.pdf" target="_blank" class="pub-link">PDF ↗</a>
         </div>
       </li>
       <li class="pub-item">
@@ -702,7 +712,7 @@
         <div class="pub-body">
           <p class="pub-title">"The World Is Swimming in a Sea of Rumors: Influence Operations Associated with El Fagr Newspaper (Egypt)"</p>
           <p class="pub-meta">April 2020</p>
-          <a href="#" class="pub-link">PDF ↗</a>
+          <a href="https://web.archive.org/web/20250126050528/https://cyber.fsi.stanford.edu/io/publication/april-2020-egypt-takedown" target="_blank" class="pub-link">Read ↗</a>
         </div>
       </li>
       <li class="pub-item">
@@ -710,7 +720,7 @@
         <div class="pub-body">
           <p class="pub-title">"Analysis of Twitter Takedown of State-Backed Operation Attributed to Saudi Arabian Digital Marketing Firm Smaat"</p>
           <p class="pub-meta">December 2019</p>
-          <a href="#" class="pub-link">PDF ↗</a>
+          <a href="https://web.archive.org/web/20250915042651/https://cyber.fsi.stanford.edu/io/publication/twitter-takedown-saudi-smaat" target="_blank" class="pub-link">Read ↗</a>
         </div>
       </li>
     </ul>
@@ -768,10 +778,10 @@
 
   <!-- FOOTER / CONTACT -->
   <footer id="contact" class="fade-up">
-    <p class="footer-big">Ready to <em>connect?</em></p>
+    <p class="footer-big">Get in <em>touch.</em></p>
     <div class="footer-contact">
-      <a href="/cdn-cgi/l/email-protection#641d0b1116240109050d084a070b09"><span class="__cf_email__" data-cfemail="7b02140e093b1e161a121755181416">[email&#160;protected]</span></a>
-      <a href="#">LinkedIn ↗</a>
+      <span style="color:var(--text)">carlymillersafetyREMOVE@gmail.com <span style="color:var(--muted);font-size:0.82rem;font-style:italic;">(remove "REMOVE" before sending)</span></span>
+      <a href="https://www.linkedin.com/in/carlymiller97/" target="_blank">LinkedIn ↗</a>
       <a href="#">Download CV ↗</a>
     </div>
     <p class="footer-credit">© 2025 Carly Miller · San Francisco, CA</p>
