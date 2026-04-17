@@ -34,11 +34,32 @@ Key design qualities to match:
 - **Display/heading font:** DM Serif Display (serif) — from Google Fonts
 - **Body font:** DM Sans (sans-serif) — from Google Fonts
 - **Italic accent font:** Instrument Serif — from Google Fonts
+- **Section header font:** Space Grotesk 700 — from Google Fonts (used for About, Research, Investigations, Talks, Contact headers)
 - **Max content width:** 720px, centered
 - **Photo size:** 240px wide, 320px tall, positioned right side of hero section
 - **Photo shape:** Slight border-radius (4px), no circle crop
 - **Photo crop:** object-position center 15% (crops slightly below top to show face clearly)
 - **Photo file:** img_website.jpeg (embedded as base64 in current mockup; use file reference when building with Claude Code)
+
+### Secondary / meta text style (pub dates, talk dates, talk descriptions, tags, footer links)
+- **Color:** Slate blue (#7a9fc2)
+- **Font-weight:** 800
+- **Font-size:** slightly larger than default (0.88rem–1rem depending on element)
+
+### Navigation links
+- **Font-size:** 0.95rem
+- **Font-weight:** 700
+- **Color:** Warm off-white (#f0ece4) — full brightness, not muted
+- **Hover color:** Slate blue (#7a9fc2)
+
+### Hero display text
+- **Font-size:** clamp(2.4rem, 7.2vw, 7.2rem) — scales to fill full viewport width
+- **Layout:** Full width, no max-width constraint on hero section
+
+### Tags (e.g. "Influence Operations", "AI Safety Evals")
+- **Color:** Slate blue (#7a9fc2)
+- **Border:** 1px solid slate blue
+- **Font-size:** 0.78rem
 
 ---
 
@@ -64,7 +85,7 @@ Hi, I'm Carly — / I analyze harms, / design safeguards, and / measure what's /
 *(slate blue italic accent on "what's actually working")*
 
 **Hero sub-text (below display, larger white text):**
-I'm focused on policy solutions for high-stakes content moderation decisions. To do this, I translate complex technical findings of what went wrong into policy standards and frameworks. My background is with traditional social media platforms, and most recently, in developing methodologies for AI safety evaluations. My work has been cited by the New York Times Editorial Board and published in the Journal of Online Trust and Safety, Lawfare, and Brookings. 
+I'm focused on building technical solutions for high-stakes content moderation decisions. To do this, I investigate where enforcement breaks down into policy standards and frameworks. My background is with traditional social media platforms, and most recently, in developing methodologies for AI safety evaluations. My work has been cited by the New York Times Editorial Board and published in the Journal of Online Trust and Safety, Lawfare, and Brookings. 
 
 **Photo:** [ADD PHOTO FILENAME HERE — e.g. photo.jpg]
 > Place your photo file in the same folder as index.html
@@ -72,7 +93,7 @@ I'm focused on policy solutions for high-stakes content moderation decisions. To
 ---
 
 ### About
-Born and raised in the Bay Area, I've called this place home aside from a brief run in Paris, studying at Sciences Po. Outside of thinking about Trust and Safety, I enjoy all the classic Bay Area things — cycling, hiking, and trail running.
+Born and raised in the Bay Area. Outside of thinking about Trust and Safety, I enjoy all the classic Bay Area things — cycling, hiking, and trail running.
 
 ---
 
@@ -134,4 +155,10 @@ Born and raised in the Bay Area, I've called this place home aside from a brief 
 | Session 3 | Added NYT Editorial Board citation to hero sub-text |
 | Session 3 | Rewrote hero sub-text to reflect 6+ years, policy standards, AI safety pivot |
 | Session 3 | Made hero sub-text larger (1.08rem) and white with slate blue left border |
+| Session 4 | Hero display text made full viewport width (removed max-width, increased font clamp to 7.2vw) |
+| Session 4 | Tags changed to slate blue (color + border) |
+| Session 4 | All secondary/meta text (pub dates, talk dates, talk descriptions, footer links) changed to slate blue, font-weight 800, larger size |
+| Session 4 | Section header font switched to Space Grotesk 700 for visible bold weight |
+| Session 4 | Nav links made larger (0.95rem), bold (700), and full white for readability |
+
 
